@@ -40,7 +40,6 @@
     <div v-for="(user, index) in users" :key="index" class="flex items-center justify-between  mt-8">
       <img
         class="w-24 h-24"
-        :alt="user.name"
         :src="user.image"
       />
 
