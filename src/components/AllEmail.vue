@@ -40,7 +40,8 @@
     <div v-for="(user, index) in users" :key="index" class="flex items-center justify-between  mt-8">
       <img
         class="w-24 h-24"
-        :src="user.image"
+        :src="require(`@/assets/images/${user.image}`)"
+
       />
 
       <div class="ml-2 w-2/3">
