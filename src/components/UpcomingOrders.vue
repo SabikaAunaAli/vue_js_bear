@@ -7,7 +7,7 @@
 
       <div>
     <!-- Current week -->
-    <div v-if="showCurrentWeek" class="flex items-center justify-center space-x-3 ml-11">
+    <div v-if="showCurrentWeek" class="flex items-center justify-center space-x-3 xl:ml-11">
       <div
         class="text-white font-bold relative bg-gradient-to-b from-teal-500 to-teal-900 rounded-full py-2 px-4 text-nowrap"
       >
@@ -24,7 +24,7 @@
     </div>
 
     <!-- Next week -->
-    <div v-if="!showCurrentWeek" class="flex items-center justify-center space-x-3 ml-11">
+    <div v-if="!showCurrentWeek" class="flex items-center justify-center space-x-3 xl:ml-11">
       <div class="rounded-full overflow-hidden shadow-xl">
         <img 
           class="rotate-180 cursor-pointer" 
