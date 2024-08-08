@@ -1,6 +1,6 @@
 <template>
-  <div class="mattress-metrics bg-white rounded-2xl shadow-lg py-2 ">
-    <div class="flex items-center justify-end p-8">
+  <div class=" bg-white rounded-2xl shadow-lg py-2 ">
+    <div class="flex items-center justify-end p-6">
 
       <div class="relative inline-block">
         <button
@@ -29,7 +29,7 @@
 
     <!-- Written Order -->
     <div v-if="selectedChoice === 'Open And Scheduled Orders'" class="p-6">
-      <div class="text-2xl font-bold text-blue -mt-20 mb-10">
+      <div class="text-[22px] font-bold text-blue -mt-20 mb-10">
         <p>Open And Scheduled Orders</p>
       </div>
       <div class="flex flex-col space-y-8 ">

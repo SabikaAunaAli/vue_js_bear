@@ -113,6 +113,7 @@ export default {
           number: '06',
           image: '/src/assets/images/ellipse-2-2.png'
         },
+
         {
           name: 'Clara C. Casper',
           description: 'Lorem ipsum dolor sit amet, consectetur elit do eiusmod tempor incididunt.',

@@ -1,15 +1,15 @@
 <template>
   <div class="bg-white px-4 pb-4 shadow-xl rounded-3xl">
     <div class="flex align-middle items-center justify-between">
-      <div class="m-5 py-2 text-[#00555D] font-bold text-2xl">
+      <div class="m-2 py-2 text-[#00555D] font-bold text-xl text-nowrap">
         Upcoming Orders
       </div>
 
       <div>
     <!-- Current week -->
-    <div v-if="showCurrentWeek" class="flex items-center justify-center space-x-3 ml-11">
+    <div v-if="showCurrentWeek" class="flex items-center justify-center space-x-2">
       <div
-        class="text-white font-bold relative bg-gradient-to-b from-teal-500 to-teal-900 rounded-full py-2 px-4"
+        class="text-white font-bold relative text-xs xl:text-sm text-nowrap bg-gradient-to-b from-teal-500 to-teal-900 rounded-full py-2 px-4"
       >
         Current week
       </div>
@@ -24,7 +24,7 @@
     </div>
 
     <!-- Next week -->
-    <div v-if="!showCurrentWeek" class="flex items-center justify-center space-x-3 ml-11">
+    <div v-if="!showCurrentWeek" class="flex items-center justify-center space-x-2">
       <div class="rounded-full overflow-hidden shadow-xl">
         <img 
           class="rotate-180 cursor-pointer" 
@@ -33,7 +33,7 @@
           @click="toggleWeek"
         />
       </div>
-      <div class="text-white font-bold relative bg-gradient-to-b from-teal-500 to-teal-900 rounded-full py-2 px-4">
+      <div class="text-white font-bold text-xs xl:text-sm relative bg-gradient-to-b from-teal-500 to-teal-900 rounded-full py-2 px-4">
         Next week
       </div>
     </div>

@@ -81,5 +81,9 @@
 .bg-hover:hover div {
     color: white;
   }
+.bg-hover:hover img {
+    filter: grayscale(50%);
+  }
+  
  </style>
  
