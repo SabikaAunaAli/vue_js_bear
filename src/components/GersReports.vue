@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white rounded-[30px] shadow-lg p-7 w-[1070px] mt-5 ml-4">
+  <div class="bg-white rounded-[30px] shadow-lg p-7 w-[1080px] mt-5 ml-4">
     <div
       class=" bg-gradient-to-b from-[#00a0af] to-[#00555d] rounded-full h-[41px] flex items-center justify-center mb-6"
     >
