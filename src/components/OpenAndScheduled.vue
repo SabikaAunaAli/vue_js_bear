@@ -66,6 +66,7 @@
     <!-- Delivered Order -->
     <div v-if="selectedChoice === 'Written And Delivered Orders'" class="p-6">
       <div class="text-2xl font-bold text-blue -mt-20 mb-10">
+      <div class="text-[22px] font-bold text-blue -mt-20 mb-10">
         <p>Written And Delivered Orders</p>
       </div>
       <div class="flex flex-col space-y-8 ">
