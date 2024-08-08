@@ -117,52 +117,7 @@
 export default {
   data() {
     return {
-      users: [
-        {
-          name: 'Ryan R. Hinds',
-          description: 'Lorem ipsum dolor sit amet, consectetur elit do eiusmod tempor incididunt.',
-          time: '18.31',
-          number: '09',
-          image: '/src/assets/images/ellipse-2.png'
-        },
-        {
-          name: 'Amanda L. Townsend',
-          description: 'Lorem ipsum dolor sit amet, consectetur elit do eiusmod tempor incididunt.',
-          time: '19.24',
-          number: '02',
-          image: '/src/assets/images/ellipse-2-3.png'
-        },
-        {
-          name: 'Royce A. Jorgensen',
-          description: 'Lorem ipsum dolor sit amet, consectetur elit do eiusmod tempor incididunt.',
-          time: '20.38',
-          number: '08',
-          image: '/src/assets/images/ellipse-2-1.png'
-        },
-        {
-          name: 'Elvie J. Juarez',
-          description: 'Lorem ipsum dolor sit amet, consectetur elit do eiusmod tempor incididunt.',
-          time: '17.47',
-          number: '01',
-          image: '/src/assets/images/ellipse-2-4.png'
-        },
-        {
-          name: 'Joseph P. Williams',
-          description: 'Lorem ipsum dolor sit amet, consectetur elit do eiusmod tempor incididunt.',
-          time: '10.26',
-          number: '06',
-          image: '/src/assets/images/ellipse-2-2.png'
-        },
-        {
-          name: 'Clara C. Casper',
-          description: 'Lorem ipsum dolor sit amet, consectetur elit do eiusmod tempor incididunt.',
-          time: '05.50',
-          number: '03',
-          image: '/src/assets/images/ellipse-2-5.png'
-        },
-      
-        // Add more user objects as needed.
-      ]
+      // No need for users data here
     };
   },
 };
@@ -170,5 +125,4 @@ export default {
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Jost:wght@400;500;700&display=swap");
-</style>
 </style>
