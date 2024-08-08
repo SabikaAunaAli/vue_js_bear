@@ -9,7 +9,7 @@
     <!-- Current week -->
     <div v-if="showCurrentWeek" class="flex items-center justify-center space-x-3 ml-11">
       <div
-        class="text-white font-bold relative bg-gradient-to-b from-teal-500 to-teal-900 rounded-full py-2 px-4"
+        class="text-white font-bold relative bg-gradient-to-b from-teal-500 to-teal-900 rounded-full py-2 px-4 text-nowrap"
       >
         Current week
       </div>
@@ -33,7 +33,7 @@
           @click="toggleWeek"
         />
       </div>
-      <div class="text-white font-bold relative bg-gradient-to-b from-teal-500 to-teal-900 rounded-full py-2 px-4">
+      <div class="text-white font-bold relative bg-gradient-to-b from-teal-500 to-teal-900 rounded-full py-2 px-4 text-nowrap">
         Next week
       </div>
     </div>
